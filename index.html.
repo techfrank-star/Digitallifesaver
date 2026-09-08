@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Lifesaver | Tech Tutorials</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text: #f8fafc;
+            --subtext: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); padding: 1.25rem; line-height: 1.6; }
+        header { text-align: center; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid var(--card-bg); }
+        h1 { color: var(--accent); font-size: 1.75rem; margin-bottom: 0.4rem; }
+        p.tagline { color: var(--subtext); font-size: 0.95rem; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .card { background: var(--card-bg); padding: 1.25rem; border-radius: 10px; margin-bottom: 1rem; border: 1px solid #334155; }
+        .card h2 { font-size: 1.15rem; margin-bottom: 0.4rem; color: #fff; }
+        .card p { color: var(--subtext); font-size: 0.9rem; }
+        .badge { display: inline-block; background: #0284c7; color: #fff; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; margin-top: 0.6rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Digital Lifesaver</h1>
+            <p class="tagline">Tech Tutorials, Mobile Tweaks & Code Solutions</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Welcome to Digital Lifesaver</h2>
+                <p>Step-by-step guides on web development, tech troubleshooting, and mobile performance optimizations.</p>
+                <span class="badge">Site Update</span>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
